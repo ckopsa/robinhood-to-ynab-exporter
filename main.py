@@ -19,7 +19,7 @@ transactions = [TransactionBase(int(float(transaction[0]) * 1000), date.fromisof
                 transaction in
                 transactions]
 
-last_transaction_date: date = date.fromisoformat('2020-02-20')
+last_transaction_date: date = date.fromisoformat(input("Insert the date of your last transaction in YNAB (yyyy-MM-dd): "))
 transactions: [TransactionBase] = list(filter(lambda x: x.transaction_date > last_transaction_date, transactions))
 print("Writing the following transactions:")
 for transaction in transactions:

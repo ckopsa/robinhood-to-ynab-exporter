@@ -1,0 +1,8 @@
+certifi==2019.11.28
+chardet==3.0.4
+idna==2.9
+-e git+https://github.com/coljamkop/robinhood-to-ynab-exporter.git#egg=openapi_client&subdirectory=ynab-client
+python-dateutil==2.8.1
+requests==2.23.0
+six==1.14.0
+urllib3==1.25.8

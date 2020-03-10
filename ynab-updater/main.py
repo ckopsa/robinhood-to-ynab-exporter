@@ -2,9 +2,9 @@ from __future__ import print_function
 
 from datetime import date
 
-from RobinhoodTransactionSupplier import RobinhoodTransactionSupplier
-from TransactionBase import TransactionBase
-from YnabTransactionWriter import YnabTransactionWriter
+from Robinhood.RobinhoodTransactionSupplier import RobinhoodTransactionSupplier
+from Model.TransactionBase import TransactionBase
+from YNAB.YnabTransactionWriter import YnabTransactionWriter
 from credentials import robinhood_token, ynab_token
 
 rbh_transaction_supplier = RobinhoodTransactionSupplier.create(robinhood_token)

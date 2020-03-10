@@ -2,4 +2,4 @@
 venv
 dist
 build
-credentials.py
+ynab-updater/credentials.py

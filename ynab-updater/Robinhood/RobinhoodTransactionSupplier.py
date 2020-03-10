@@ -1,7 +1,7 @@
-from HttpRequester import HttpRequester
-from TransactionManager import TransactionManager
-from TransferManager import TransferManager
-from AchTransferManager import AchTransferManager
+from Utils.HttpRequester import HttpRequester
+from Robinhood.TransactionManager import TransactionManager
+from Robinhood.TransferManager import TransferManager
+from Robinhood.AchTransferManager import AchTransferManager
 
 
 class RobinhoodTransactionSupplier:

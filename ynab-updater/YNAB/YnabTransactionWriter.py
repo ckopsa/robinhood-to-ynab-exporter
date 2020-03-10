@@ -3,7 +3,7 @@ from typing import List
 import openapi_client
 from openapi_client import Account, SaveTransaction, ApiException, SaveTransactionsWrapper
 
-from TransactionBase import TransactionBase
+from Model.TransactionBase import TransactionBase
 
 
 class YnabTransactionWriter:

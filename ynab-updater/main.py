@@ -11,6 +11,7 @@ rbh_transaction_supplier = RobinhoodTransactionSupplier.create(robinhood_token)
 
 ynab_transaction_writer = YnabTransactionWriter.create(ynab_token)
 
+print("Loading Transactions. This may take a bit.")
 transactions = rbh_transaction_supplier.get()
 transactions = filter(lambda x: x is not None, transactions)
 
